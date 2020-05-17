@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "npm run build",
     "build": "babel src -d scripts",
-    "start": "bin\\\hubot -- -a groupme"
+    "start": "bin\hubot -- -a groupme"
   },
   "engines": {
     "node": "8.7.x"
